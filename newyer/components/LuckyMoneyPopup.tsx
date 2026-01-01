@@ -7,12 +7,19 @@ interface LuckyMoneyPopupProps {
 }
 
 const FORTUNES = [
-  { title: "ĐẠI CÁT", text: "Năm nay tiền vào như nước, tình duyên phơi phới.", },
-  { title: "TẤN TÀI", text: "Công danh thăng tiến vượt bậc, sếp quý đồng nghiệp thương.",},
-  { title: "BÌNH AN", text: "Sức khỏe dồi dào, tâm hồn an yên, vạn sự như ý.",},
-  { title: "NHƯ Ý", text: "Cầu được ước thấy, mọi dự định đều thành công rực rỡ.",},
-  { title: "PHÚ QUÝ", text: "Lộc lá đầy nhà, ra ngõ gặp quý nhân.",}
+  { title: "ĐẠI CÁT", text: "Năm nay tiền vào như nước, tình duyên phơi phới." },
+  { title: "TẤN TÀI", text: "Công danh thăng tiến vượt bậc, sếp quý đồng nghiệp thương." },
+  { title: "BÌNH AN", text: "Sức khỏe dồi dào, tâm hồn an yên, vạn sự như ý." },
+  { title: "NHƯ Ý", text: "Cầu được ước thấy, mọi dự định đều thành công rực rỡ." },
+  { title: "PHÚ QUÝ", text: "Lộc lá đầy nhà, ra ngõ gặp quý nhân." },
+
+  { title: "HỶ SỰ", text: "Gia đình êm ấm, tin vui liên tiếp gõ cửa." },
+  { title: "THUẬN LỢI", text: "Mọi việc hanh thông, khó khăn dần hóa nhẹ nhàng." },
+  { title: "VIÊN MÃN", text: "Cuộc sống đủ đầy, công việc và tình cảm đều tròn vẹn." },
+  { title: "PHÁT ĐẠT", text: "Cơ hội mở ra liên tiếp, nắm bắt là thành công." },
+  { title: "AN KHANG", text: "Ngày ngày bình yên, năm tháng an lành." }
 ];
+
 
 const LuckyMoneyPopup: React.FC<LuckyMoneyPopupProps> = ({ onClose }) => {
   const [selected, setSelected] = useState<number | null>(null);
