@@ -17,7 +17,8 @@ export const NAME_TO_ROLE_MAPPING: Record<string, string> = {
   "lê thị ngọc thơm": "chị",
   "lê thị ngọc hoa": "chị",
   "lê thị ngọc thắm": "anh",
-  "lê hoàng ngọc huy": "em", 
+  "lê hoàng ngọc huy": "em",
+  "lê thanh điền": "chú", 
   "đỗ văn chăm": "bác",
   "vũ thị hoà": "bác_gái", 
   "đỗ thị yến": "chị",
@@ -27,6 +28,9 @@ export const NAME_TO_ROLE_MAPPING: Record<string, string> = {
   "nguyễn lê hoàng anh tuấn": "chú",
   "nguyễn ngọc đại": "thầy",
   "võ hoàng phát": "bạn",
+  "trang nhật quang": "thầy",
+  "hồ quý thuận": "thầy",
+
 };
 
 // ------------------------------------------------------------------------
@@ -240,7 +244,7 @@ export const ROLE_BASED_WISHES: Record<string, { text: string; theme: 'gold' | '
   // ============================
   // NHÓM XÃ HỘI
   // ============================
-  "thay": [
+  "thầy": [
   { 
     text: "Kính chúc Quý Thầy năm mới thật nhiều sức khỏe, tinh thần an nhiên và luôn vững vàng trong cuộc sống.", 
     theme: "cyan" 
