@@ -30,6 +30,7 @@ export const NAME_TO_ROLE_MAPPING: Record<string, string> = {
   "võ hoàng phát": "bạn",
   "trang nhật quang": "thầy",
   "hồ quý thuận": "thầy",
+  "nguyễn ánh việt": "thầy",
 
 };
 
