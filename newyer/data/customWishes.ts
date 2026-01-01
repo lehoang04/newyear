@@ -271,13 +271,29 @@ export const ROLE_BASED_WISHES: Record<string, { text: string; theme: 'gold' | '
     { text: "Chúc Sếp một năm mới đắc tài đắc lộc, đắc nhân tâm, sự nghiệp thăng hoa rực rỡ.", theme: "cyan" },
     { text: "Mong Sếp năm nay có thêm nhiều bước tiến đột phá, đưa công ty phát triển bền vững.", theme: "gold" }
   ],
-  "bạn": [
-    { text: "Chúc bạn hiền năm mới tiền tài dư dả, sức khỏe dồi dào, tình duyên phơi phới.", theme: "cyan" },
-    { text: "Năm mới chúc bạn sớm tìm được ý trung nhân, công việc thuận lợi, đời vui như tết.", theme: "pink" },
-    { text: "Chúc bạn năm nay đổi vận hanh thông, mua nhà tậu xe, du lịch thả ga.", theme: "gold" },
-    { text: "Mong bạn một năm mới bình an, hạnh phúc, mọi dự định đều thành công tốt đẹp.", theme: "red" },
-    { text: "Chúc tình bạn của chúng ta mãi bền chặt. Năm mới chúc bạn và gia đình vạn sự cát tường.", theme: "cyan" }
-  ],
+  "ban": [
+  { 
+    text: "Kính chúc mọi người năm mới sức khỏe dồi dào, tinh thần thoải mái và lúc nào cũng có lý do để mỉm cười.", 
+    theme: "cyan" 
+  },
+  { 
+    text: "Năm mới mong công việc hanh thông, cuộc sống nhẹ nhàng hơn và những điều tốt đẹp đến đúng lúc.", 
+    theme: "pink" 
+  },
+  { 
+    text: "Chúc năm mới gặp nhiều may mắn, tiền bạc vừa đủ tiêu, niềm vui thì luôn dư dả.", 
+    theme: "gold" 
+  },
+  { 
+    text: "Mong một năm mới bình an, ít muộn phiền, nhiều thành quả và các dự định đều tiến triển suôn sẻ.", 
+    theme: "red" 
+  },
+  { 
+    text: "Kính chúc mọi người và gia đình năm mới an khang, ấm áp và trọn vẹn từng khoảnh khắc.", 
+    theme: "cyan" 
+  }
+],
+
   "đồng nghiệp": [
     { text: "Chúc đồng nghiệp năm mới KPI đạt đỉnh, công việc trôi chảy, tiền thưởng ngập tràn.", theme: "gold" },
     { text: "Năm mới vui vẻ, hợp tác thành công, cùng nhau đưa team mình đi lên nhé.", theme: "cyan" },
