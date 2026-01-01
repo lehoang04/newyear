@@ -18,6 +18,8 @@ export const NAME_TO_ROLE_MAPPING: Record<string, string> = {
   "lê thị ngọc hoa": "chị",
   "lê thị ngọc thắm": "anh",
   "lê hoàng ngọc huy": "em",
+  "lê thị bảo ngọc": "em",
+  "đặng ngọc anh thư": "em",
   "lê thanh điền": "chú", 
   "đỗ văn chăm": "bác",
   "vũ thị hoà": "bác_gái", 
