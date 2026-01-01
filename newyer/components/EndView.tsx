@@ -235,9 +235,9 @@ const EndView: React.FC<EndViewProps> = ({ onReplay, onHome, onStartShow, onLuck
                 <Heart size={48} className="text-red-500 fill-red-500 drop-shadow-[0_0_15px_rgba(239,68,68,0.8)]" />
              </div>
              
-             <h2 className="text-3xl md:text-5xl font-dancing font-bold text-yellow-300 mb-4 drop-shadow-md leading-tight">Cảm ơn bạn đã ghé thăm</h2>
+             <h2 className="text-3xl md:text-5xl font-dancing font-bold text-yellow-300 mb-4 drop-shadow-md leading-tight">Cảm ơn đã dành thời gian trải nghiệm</h2>
              <div className="w-32 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent mb-6"></div>
-             <p className="text-white/80 font-quicksand text-lg mb-8 leading-relaxed">Chúc bạn và gia đình một năm mới Bình An, Hạnh Phúc và tràn đầy May Mắn.</p>
+             <p className="text-white/80 font-quicksand text-lg mb-8 leading-relaxed">Chúc mọi người và gia đình một năm mới Bình An, Hạnh Phúc và tràn đầy May Mắn.</p>
 
              <div className="flex flex-wrap gap-3 justify-center">
                   <button onClick={(e) => { e.stopPropagation(); onHome(); }} className="flex items-center gap-2 px-5 py-3 bg-white/10 hover:bg-white/20 rounded-full text-yellow-300 border border-yellow-500/30 transition-all hover:scale-105 backdrop-blur-md">
